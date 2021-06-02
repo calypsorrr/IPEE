@@ -1,0 +1,21 @@
+void setup()  
+{
+  Serial1.begin(9600);
+  delay(5000);
+  int var = 0;
+  while(var < 5){
+    byte message[] = {0xFF, 0x04, 0x00, 233};
+    Serial1.write(message, sizeof(message));
+    var = var + 1;
+    delay(500);
+  }
+} 
+
+void loop()  
+{ 
+  while(Serial1.available() > 0){
+    int incoming=Serial1.read();
+    Serial.println(incoming, HEX);
+  }
+
+}
