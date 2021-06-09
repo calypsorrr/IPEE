@@ -19,6 +19,6 @@ ICLOG
           LoRaWAN network
 
      Created on 20/05/2021
-     By Senne De Winter and Tibo Smet
+     By Senne De Winter, Tibo Smet, Bo Claes, Myrthe Diepeveen, Stijn Janssen
      Modified on 6/06/2021
      By Senne De Winter
